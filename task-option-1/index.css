@@ -633,6 +633,7 @@ h2{
 }
 .card{
   padding: 40px;
+  border: none;
 
 }
 .p-name{
@@ -642,6 +643,25 @@ h2{
 .p-description{
   font-size: 14px;
   line-height: 24px;
+}
+@media screen  and (max-width:1400px){
+  .cards{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  
+}
+@media screen and (max-width:1250px){
+  .card{
+    padding: 10px;
+  }
+}
+@media screen and (max-width:1122px){
+  .card{
+    width: 100%;
+  }
+  
 }
 @media screen  and (max-width:1400px){
   .cards{
